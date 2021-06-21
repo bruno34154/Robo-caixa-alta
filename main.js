@@ -17,7 +17,7 @@ function firstUpper(){
 	var stringLeft = textOrigin.value.slice(1)
 
 
-	result.innerText = firstLetter.toUpperCase() + stringLeft
+	result.innerText = firstLetter.toUpperCase() + stringLeft.toLowerCase()
 
 
 }
