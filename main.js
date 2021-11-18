@@ -4,8 +4,8 @@ var result = document.getElementById('valorDigitado')
 
 function upper(){
 
-	 /*result.innerText = textOrigin.value.toUpperCase()*/
-	textOrigin.innerHTML = textOrigin.toUpperCase()
+	 result.innerText = textOrigin.value.toUpperCase()
+	
 		 
 }
 
