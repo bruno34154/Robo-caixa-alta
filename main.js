@@ -5,7 +5,7 @@ var result = document.getElementById('valorDigitado')
 function upper(){
 
 	 /*result.innerText = textOrigin.value.toUpperCase()*/
-	textOrigin.innerHTML = textOrigin.toUpperCase()
+	textOrigin.innerHTML = textOrigin.value.toUpperCase()
 		 
 }
 
